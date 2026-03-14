@@ -1,5 +1,10 @@
+import arreglos.*;
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        DiezPrimo diezPrimo = new DiezPrimo();
+        diezPrimo.mostrarNumerosPrimo();
+        CienNumero cienNumero = new CienNumero();
+        cienNumero.inicializarCienNumeros();
+        
     }
 }
