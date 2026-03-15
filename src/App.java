@@ -1,6 +1,5 @@
-import arraylist.MenosDiezSumaMedia;
-import arraylist.VeinteParesAscendentesBorrar;
 import arreglos.*;
+import arraylist.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -28,11 +27,17 @@ public class App {
         menosDiez.mostrarNumeros();
         menosDiez.calcularYMostrarSumaMedia();
 
-        VeinteParesAscendentesBorrar vpab = new VeinteParesAscendentesBorrar();
-        vpab.generarPares();
-        vpab.mostrar();
-        vpab.insertar();
-        vpab.borrar();
-        vpab.cerrar();
-    }
+        VeinteParesAscendentesBorrar veinteparascendente = new VeinteParesAscendentesBorrar();
+        veinteparascendente.generarPares();
+        veinteparascendente.mostrar();
+        veinteparascendente.insertar();
+        veinteparascendente.borrar();
+        veinteparascendente.cerrar();
+
+        CienEntreUnoVeinteRepetidoTabla cienEntreUnoVeinteRepetidoTabla = new CienEntreUnoVeinteRepetidoTabla();
+        cienEntreUnoVeinteRepetidoTabla.generarNumeros();
+        cienEntreUnoVeinteRepetidoTabla.frecuenciaApariciones();
+        cienEntreUnoVeinteRepetidoTabla.mostrarTablaFrecuencia();
+        cienEntreUnoVeinteRepetidoTabla.numeroMayorFrecuencia();
+    }    
 }
