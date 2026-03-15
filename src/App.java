@@ -1,3 +1,4 @@
+import arraylist.MenosDiezSumaMedia;
 import arreglos.*;
 
 public class App {
@@ -14,5 +15,7 @@ public class App {
         mayorMenorVeintiCinco.encontrarMayorMenor();
         VeinteAleatoriosAlDerechoyAlreves veinteAleatoriosAlDerechoyAlreves = new VeinteAleatoriosAlDerechoyAlreves();
         veinteAleatoriosAlDerechoyAlreves.generarYMostrarAleatorios();
+        MenosDiezSumaMedia menosDiezSumaMedia = new MenosDiezSumaMedia();
+        menosDiezSumaMedia.generarYMostrarNumeros();
     }
 }
