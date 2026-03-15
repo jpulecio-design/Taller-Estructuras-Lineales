@@ -1,5 +1,5 @@
 import arreglos.*;
-import arraylist.*;
+
 public class App {
     public static void main(String[] args) throws Exception {
         DiezPrimo diezPrimo = new DiezPrimo();
@@ -10,6 +10,9 @@ public class App {
         nFactorial.generarNumerosAleatorios(10);
         nFactorial.calcularFactoriales();
         nFactorial.mostrarFactorialesyNumeros();
-        
+        MayorMenorVeintiCinco mayorMenorVeintiCinco = new MayorMenorVeintiCinco();
+        mayorMenorVeintiCinco.encontrarMayorMenor();
+        VeinteAleatoriosAlDerechoyAlreves veinteAleatoriosAlDerechoyAlreves = new VeinteAleatoriosAlDerechoyAlreves();
+        veinteAleatoriosAlDerechoyAlreves.generarYMostrarAleatorios();
     }
 }
