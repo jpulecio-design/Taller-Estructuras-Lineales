@@ -26,11 +26,11 @@ public class NFactorial {
     }
 
     public void mostrarFactorialesyNumeros() {
-        System.out.println("/n Numeros generados: ");
+        System.out.println("\n Numeros generados: ");
         for (int numero : numeros) {
             System.out.println(numero);
         }
-        System.out.println("/nFactoriales calculados: ");
+        System.out.println("\nFactoriales calculados: ");
         for (int factorial : factoriales) {
             System.out.println(factorial);
         }

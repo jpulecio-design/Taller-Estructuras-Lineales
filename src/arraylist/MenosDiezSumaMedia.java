@@ -4,31 +4,31 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MenosDiezSumaMedia {
-    public void generarYMostrarNumeros() {
-        ArrayList<Integer> numeros = new ArrayList<>();
-        Random random = new Random();
+    private ArrayList<Integer> numeros = new ArrayList<>();
+    private Random random = new Random();
 
-        // Generar 10 numeros aleatorios entre -10 y 10
-        for (int i = 0; i < 10; i++) {
-            int numero = random.nextInt(21) - 10; // Genera numeros entre -10 y 10
+    public void generarNumeros() {
+        int numero;
+        do {
+            numero = random.nextInt(21) - 10;
             numeros.add(numero);
-        }
+        } while (numero != 10);
+    }
 
-        // Mostrar los numeros generados
+    public void mostrarNumeros() {
         System.out.println("Numeros generados:");
         for (int numero : numeros) {
             System.out.print(numero + " ");
         }
         System.out.println();
+    }
 
-        // Calcular la suma y la media
+    public void calcularYMostrarSumaMedia() {
         int suma = 0;
         for (int numero : numeros) {
             suma += numero;
         }
         double media = (double) suma / numeros.size();
-
-        // Mostrar la suma y la media
         System.out.println("Suma: " + suma);
         System.out.println("Media: " + media);
     }
