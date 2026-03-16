@@ -1,8 +1,5 @@
 import arreglos.*;
-import matrices.AleatoriosBusquedaPosicion;
-import matrices.MatrizMxNTranspuestaAleatoria;
-import matrices.MatrizNxNAleatoriaSimetricaEsquina;
-import matrices.SumatoriaDiagonalOpuesta;
+import matrices.*;
 import arraylist.*;
 
 public class App {
@@ -36,7 +33,7 @@ public class App {
         veinteparascendente.mostrar();
         veinteparascendente.insertar();
         veinteparascendente.borrar();
-        veinteparascendente.cerrar();
+        
 
         CienEntreUnoVeinteRepetidoTabla cienEntreUnoVeinteRepetidoTabla = new CienEntreUnoVeinteRepetidoTabla();
         cienEntreUnoVeinteRepetidoTabla.generarNumeros();
@@ -78,5 +75,12 @@ public class App {
         matrizTranspuestaAleatoria.generarMatriz(3, 4);
         matrizTranspuestaAleatoria.mostrarMatriz();
         matrizTranspuestaAleatoria.mostrarTranspuesta();
+
+        MatrizNxMDigitadas matrizDigitadas = new MatrizNxMDigitadas();
+        matrizDigitadas.pedirDimensiones();
+        matrizDigitadas.mostrarMatriz();
+        matrizDigitadas.intercambiarPrimeraFilaPorLaSegunda();
+        System.out.println("Despues de intercambiar la primera fila por la segunda:");
+        matrizDigitadas.mostrarMatriz();
     }
 }

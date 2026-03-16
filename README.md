@@ -1,18 +1,50 @@
-## Getting Started
+# Taller de Estructuras Lineales
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Implementacion en Java de ejercicios con arreglos unidimensionales, matrices y ArrayLists, aplicando principios de Programacion Orientada a Objetos, Clean Code y principios SOLID.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Estudiante
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Juan Andrés Pulecio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Descripcion
 
-## Dependency Management
+Taller academico desarrollado en Java desde consola. Cubre estructuras de datos lineales: arreglos unidimensionales, matrices y ArrayLists. Los datos de relleno se generan aleatoriamente y el codigo esta organizado siguiendo principios DRY, YAGNI, KISS y SOLID, con separacion de responsabilidades en metodos de generacion, procesamiento e impresion.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## Estructura del proyecto
+```
+Taller-Estructuras-Lineales/
+│
+├── src/
+│   ├── arraylist/
+│   ├── arreglos/
+│   ├── matrices/
+│   └── App.java
+│
+├── PartidoLiga.txt
+└── README.md
+```
+
+---
+
+## Instrucciones para ejecutar
+
+### Requisitos
+- Java JDK 11 o superior
+- VS Code con Extension Pack for Java
+
+### Desde VS Code
+1. Abre la carpeta del proyecto en VS Code
+2. Abre `App.java`
+3. Presiona **Run** (▶) o `Ctrl + F5`
+
+### Desde consola
+```bash
+javac -d bin src/**/*.java src/App.java
+java -cp bin App
+```

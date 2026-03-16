@@ -42,13 +42,9 @@ public class VeinteParesAscendentesBorrar {
             numeros.remove(Integer.valueOf(numeroABorrar));
             System.out.println("Numero " + numeroABorrar + " borrado.");
         } else {
-            System.out.println("El numero " + numeroABorrar + " no se encuentra en la lista.");
+            System.out.println("El numero " + numeroABorrar + " no se encuentra en la lista");
         }
         System.out.println("Lista tras borrar:");
         mostrar();
-    }
-
-    public void cerrar() {
-        scanner.close();
     }
 }
