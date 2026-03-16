@@ -1,5 +1,6 @@
 import arreglos.*;
 import matrices.AleatoriosBusquedaPosicion;
+import matrices.SumatoriaDiagonalOpuesta;
 import arraylist.*;
 
 public class App {
@@ -58,7 +59,11 @@ public class App {
         AleatoriosBusquedaPosicion aleatoriosBusquedaPosicion = new AleatoriosBusquedaPosicion();
         aleatoriosBusquedaPosicion.generarMatriz(5, 5);
         aleatoriosBusquedaPosicion.mostrarMatriz();
-        aleatoriosBusquedaPosicion.buscarValor(50); 
-        
+        aleatoriosBusquedaPosicion.buscarValor(50);
+
+        SumatoriaDiagonalOpuesta sumatoriaDiagonalOpuesta = new SumatoriaDiagonalOpuesta();
+        sumatoriaDiagonalOpuesta.generarMatriz(4);
+        sumatoriaDiagonalOpuesta.mostrarMatriz();
+        sumatoriaDiagonalOpuesta.sumarDiagonalOpuesta();
     }
 }
