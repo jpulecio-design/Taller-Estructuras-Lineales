@@ -39,5 +39,19 @@ public class App {
         cienEntreUnoVeinteRepetidoTabla.frecuenciaApariciones();
         cienEntreUnoVeinteRepetidoTabla.mostrarTablaFrecuencia();
         cienEntreUnoVeinteRepetidoTabla.numeroMayorFrecuencia();
-    }    
+
+        VeinteEntreUnoyCien veinteEntreUnoyCien = new VeinteEntreUnoyCien();
+        veinteEntreUnoyCien.generarNumeros();
+        veinteEntreUnoyCien.mostrarOriginal();
+        veinteEntreUnoyCien.ordenarMenorMayor();
+        veinteEntreUnoyCien.ordenarMayorMenor();
+        veinteEntreUnoyCien.separarParesImpares();
+
+        PartidosArrayList partidos = new PartidosArrayList();
+        partidos.cargarPartidos("Taller-Estructuras-Lineales\\PartidoLiga.txt");
+        partidos.mostrarGanadorVisitante();
+        partidos.contarVictoriasBarcelona();
+        partidos.contarVictoriasLocal();
+        partidos.eliminarNoEmpates();
+    }
 }
