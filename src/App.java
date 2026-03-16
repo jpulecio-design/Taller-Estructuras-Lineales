@@ -1,4 +1,5 @@
 import arreglos.*;
+import matrices.AleatoriosBusquedaPosicion;
 import arraylist.*;
 
 public class App {
@@ -53,5 +54,11 @@ public class App {
         partidos.contarVictoriasBarcelona();
         partidos.contarVictoriasLocal();
         partidos.eliminarNoEmpates();
+
+        AleatoriosBusquedaPosicion aleatoriosBusquedaPosicion = new AleatoriosBusquedaPosicion();
+        aleatoriosBusquedaPosicion.generarMatriz(5, 5);
+        aleatoriosBusquedaPosicion.mostrarMatriz();
+        aleatoriosBusquedaPosicion.buscarValor(50); 
+        
     }
 }
