@@ -47,7 +47,7 @@ Taller-Estructuras-Lineales/
 ### Desde VS Code
 1. Abre la carpeta del proyecto en VS Code
 2. Abre `App.java`
-3. Presiona **Run** (▶) o `Ctrl + F5`
+3. Presiona **Run**  o `Ctrl + F5`
 
 ### Desde consola
 ```bash
