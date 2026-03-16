@@ -1,5 +1,9 @@
 package arreglos;
 
+/*3.   Leer n números enteros aleatorios, almacenarlos en un arreglo y calcular 
+*la factorial de cada número leído, el cual se debe guardar en otro arreglo.
+* Imprima el arreglo de los números iniciales y el de las factoriales.
+ */
 import java.util.Arrays;
 import java.util.Random;
 

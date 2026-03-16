@@ -1,5 +1,11 @@
 package arraylist;
 
+/*  9. Genere un ArrayList con 20 números aleatorios entre 1 y 100. 
+*¿Cómo puede ordenar los elementos de la lista de menor a mayor y 
+*posteriormente de mayor a menor? Además, ¿cómo puede separar los 
+*números de la lista en dos nuevas listas que contengan únicamente 
+*números pares y números impares? Muestra todas las listas generadas.
+*/
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;

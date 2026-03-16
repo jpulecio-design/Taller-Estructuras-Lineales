@@ -1,5 +1,8 @@
 package arreglos;
-
+/*2.   Inicializar por programa un arreglo con los 100 primeros números pares e imprimirlo:
+*En una sola línea.
+*En 10 líneas indicando el número de línea
+  */
 public class CienNumero {
     public void inicializarCienNumeros() {
         int[] numeros = new int[200];

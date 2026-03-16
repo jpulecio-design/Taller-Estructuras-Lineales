@@ -1,5 +1,11 @@
 package arraylist;
 
+/* 8. Genere un ArrayList con 100 números enteros aleatorios entre 1 y 20. 
+*¿Cómo puede recorrer la lista para determinar cuántas veces aparece cada
+* número dentro de ella? Construya una tabla que muestre cada número y su 
+*frecuencia de aparición, e identifique cuál es el número que se repite con 
+*mayor frecuencia en la lista.
+*/
 import java.util.ArrayList;
 import java.util.Random;
 

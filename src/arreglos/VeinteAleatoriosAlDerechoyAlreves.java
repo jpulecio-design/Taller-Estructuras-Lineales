@@ -1,5 +1,9 @@
 package arreglos;
 
+/*5.   Inicializa un arreglo con 20 números aleatorios, enteros e invierta 
+*cada uno de los números del arreglo y guarde los números invertidos en otro arreglo.
+*Imprima ambos arreglos.
+ */
 import java.util.Random;
 
 public class VeinteAleatoriosAlDerechoyAlreves {

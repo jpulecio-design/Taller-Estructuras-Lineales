@@ -1,5 +1,14 @@
 package arraylist;
 
+/* 7. Inicializar un ArrayList con los 20 primeros números pares ascendentemente y
+*realice lo siguiente:
+Imprima el ArrayList leído.
+Lea un numero cualquiera e insértelo en la posición correcta de acuerdo con el
+*orden del ArrayList. Imprima de nuevo el ArrayList para verificar que el valor 
+*se insertó en la posición correcta.
+Borre un valor dentro del ArrayList solicitándolo al usuario. Imprima de nuevo 
+*el arreglo para verificar que el valor se retiró.
+*/
 import java.util.ArrayList;
 import java.util.Scanner;
 

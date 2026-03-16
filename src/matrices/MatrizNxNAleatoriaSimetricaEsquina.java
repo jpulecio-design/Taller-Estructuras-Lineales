@@ -1,5 +1,9 @@
 package matrices;
 
+/* 13.   Inicializar una matriz de n por n, rellenar con números
+*aleatorios y determinar si es simétrica o no, imprima los números
+*de las esquinas.
+*/
 import java.util.Random;
 import java.util.Arrays;
 

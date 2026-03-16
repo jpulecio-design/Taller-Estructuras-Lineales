@@ -1,5 +1,9 @@
 package matrices;
 
+/* 15.   Inicializar una matriz de m filas * n columnas 
+*(cargar n y m por teclado y rellenar con aleatorios) 
+*Intercambiar la primera fila con la segunda. Imprimir luego la matriz. 
+*/
 import java.util.Random;
 import java.util.Scanner;
 

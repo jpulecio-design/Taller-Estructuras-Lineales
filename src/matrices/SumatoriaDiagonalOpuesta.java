@@ -1,5 +1,9 @@
 package matrices;
 
+/* 12.   Inicializar una matriz de tamaño n por n rellenar con
+*números aleatorios entre -50 y 50 y calcular la sumatoria de 
+*los elementos de la diagonal opuesta a la principal.
+*/
 import java.util.Random;
 
 public class SumatoriaDiagonalOpuesta {

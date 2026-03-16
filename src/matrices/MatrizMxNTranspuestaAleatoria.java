@@ -1,5 +1,9 @@
 package matrices;
 
+/* 14.   Inicializa una matriz de m por n y encuentre su 
+*transpuesta. Imprima la matriz inicial y la transpuesta. 
+*Ingresar los valores de manera predeterminada
+*/
 import java.util.Random;
 import java.util.Arrays;
 

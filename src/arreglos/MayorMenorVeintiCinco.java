@@ -1,5 +1,10 @@
 package arreglos;
 
+/*4.   Lea 25 números enteros aleatorios entre -50 y 50, almacénese en un arreglo
+* y encuentre:
+*El número menor del arreglo.
+*El número mayor del arreglo.
+ */
 import java.util.Arrays;
 import java.util.Random;
 

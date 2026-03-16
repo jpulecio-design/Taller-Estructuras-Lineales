@@ -1,5 +1,9 @@
 package arraylist;
 
+/*6.   Escribe un programa que lea números enteros aleatorios entre -10 y 10 
+*y los guarde en un ArrayList hasta que se lea el número 10 y muestra los números
+*leídos, su suma y su media. 
+ */
 import java.util.ArrayList;
 import java.util.Random;
 
