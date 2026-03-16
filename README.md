@@ -10,6 +10,12 @@ Implementacion en Java de ejercicios con arreglos unidimensionales, matrices y A
 
 ---
 
+## Asignatura
+
+-Estructura de datos
+
+---
+
 ## Descripcion
 
 Taller academico desarrollado en Java desde consola. Cubre estructuras de datos lineales: arreglos unidimensionales, matrices y ArrayLists. Los datos de relleno se generan aleatoriamente y el codigo esta organizado siguiendo principios DRY, YAGNI, KISS y SOLID, con separacion de responsabilidades en metodos de generacion, procesamiento e impresion.
