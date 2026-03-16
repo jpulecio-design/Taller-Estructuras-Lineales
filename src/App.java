@@ -1,5 +1,6 @@
 import arreglos.*;
 import matrices.AleatoriosBusquedaPosicion;
+import matrices.MatrizMxNTranspuestaAleatoria;
 import matrices.MatrizNxNAleatoriaSimetricaEsquina;
 import matrices.SumatoriaDiagonalOpuesta;
 import arraylist.*;
@@ -72,5 +73,10 @@ public class App {
         matrizSimetricaEsquina.mostrarMatriz();
         matrizSimetricaEsquina.esSimetrica();
         matrizSimetricaEsquina.mostrarEsquinas();
+
+        MatrizMxNTranspuestaAleatoria matrizTranspuestaAleatoria = new MatrizMxNTranspuestaAleatoria();
+        matrizTranspuestaAleatoria.generarMatriz(3, 4);
+        matrizTranspuestaAleatoria.mostrarMatriz();
+        matrizTranspuestaAleatoria.mostrarTranspuesta();
     }
 }

@@ -33,12 +33,12 @@ public class MatrizNxNAleatoriaSimetricaEsquina {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (matriz[i][j] != matriz[j][i]) {
-                    System.out.println("La matriz no es simetrica.");
+                    System.out.println("La matriz no es simetrica");
                     return;
                 }
             }
         }
-        System.out.println("La matriz es simetrica.");
+        System.out.println("La matriz es simetrica");
     }
 
     public void mostrarEsquinas() {
